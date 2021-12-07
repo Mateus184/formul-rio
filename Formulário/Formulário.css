@@ -1,0 +1,124 @@
+* {
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: darkcyan;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    
+    display: flex;
+    justify-content: center;
+    height: 750px;
+   
+}
+
+.pedido {
+    background-color: rgb(4, 51, 51);
+    border: solid rgb(29, 28, 28); ;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 350px;
+    width: 700px;
+    margin: 10px;
+    padding: 15px;
+
+}
+
+h2 {
+    color: white;
+    display: flex;
+    border:solid rgb(29, 28, 28);
+    padding: auto;
+    padding-left: 245px;
+}
+
+.forma {
+    color: white;
+    display: flex;
+    justify-content: space-between; 
+    
+    
+}
+
+.form1, .form2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 1px;
+    height: 4px;
+    
+}
+
+h3 {
+    margin: 0;
+    margin-left: 45px;
+}
+
+.forma1 {
+    border: solid rgb(29, 28, 28);
+    width: 300px;
+    margin: 4px;
+
+}
+.forma2 {
+    border: solid rgb(29, 28, 28);
+    width: 300px;
+    margin: 4px;
+}
+.input2, .input1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: flex-start;
+}
+
+.confirmar {
+    
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 320px;
+}
+
+.enviar {
+    display: flex;
+    width: 320px;
+    justify-content: start;
+}
+   
+
+
+}
+#submit {
+    border: 2px solid rgb(29, 28, 28);
+    
+}
+
+.base {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 400px;
+    padding:40px ;
+    
+}
+
+input {
+
+}
+
+
+
+
+
+
+.forma, .forma1, .forma2, h2, .pedido, .container {
+    border-radius: 5px;
+}
